@@ -1,4 +1,4 @@
-# UNI-APP 登录模板
+# 基于UNI-APP 微信小程序 
 
 ## 运行方式
 将项目拖入[HbuilderX](http://www.dcloud.io/hbuilderx.html),直接运行即可
