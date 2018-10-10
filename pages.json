@@ -1,0 +1,72 @@
+{
+    "pages": [ //pages数组中第一项表示应用启动页,
+        {
+            "path": "pages/main/main",
+            "style": {
+                "navigationBarTitleText": "首页"
+            }
+        }, {
+            "path": "pages/login/login",
+            "style": {
+                "navigationBarTitleText": "登录"
+            }
+        }, {
+            "path": "pages/reg/reg",
+            "style": {
+                "navigationBarTitleText": "注册"
+            }
+        }, {
+            "path": "pages/pwd/pwd",
+            "style": {
+                "navigationBarTitleText": "找回密码"
+            }
+        }, {
+            "path": "pages/user/user",
+            "style": {
+                "navigationBarTitleText": "我的"
+            }
+        },{
+            "path": "pages/devices/tabbar",
+            "style": {
+                "navigationBarTitleText": "应用"
+            }
+        },{
+            "path": "pages/devices/devicelist",
+            "style": {
+                "navigationBarTitleText": "设备",
+				 "enablePullDownRefresh": true
+            }
+        }
+    ],
+    "tabBar": {
+        "color": "#7a7e83",
+        "selectedColor": "#0faeff",
+        "backgroundColor": "#ffffff",
+        "list": [{
+            "pagePath": "pages/main/main",
+            "text": "首页",
+            "iconPath": "static/img/home.png",
+            "selectedIconPath": "static/img/home1.png"
+        }, {
+            "pagePath": "pages/devices/tabbar",
+            "text": "应用",
+            "iconPath": "static/img/application.png",
+            "selectedIconPath": "static/img/application1.png"
+        } , {
+            "pagePath": "pages/devices/devicelist",
+            "text": "网关",
+            "iconPath": "static/img/gw.png",
+            "selectedIconPath": "static/img/gw1.png"
+        } ,{
+            "pagePath": "pages/user/user",
+            "text": "我的",
+            "iconPath": "static/img/user.png",
+            "selectedIconPath": "static/img/user1.png"
+        }]
+    },
+    "globalStyle": {
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#0faeff",
+        "backgroundColor": "#fbf9fe"
+    }
+}
