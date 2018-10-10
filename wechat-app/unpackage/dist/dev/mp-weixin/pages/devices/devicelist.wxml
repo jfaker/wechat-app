@@ -1,1 +1,0 @@
-<import src="/pages/devices/devicelist.vue.wxml" /><template is="48e9d9e6" data="{{ ...$root['0'], $root }}"/>
